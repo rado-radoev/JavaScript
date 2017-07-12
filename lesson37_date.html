@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+  <head>
+    <title></title>
+    <style type="text/css">
+
+    </style>
+  </head>
+  <boyd>
+    <script type="text/javascript">
+       /*function doSometing() {
+         document.write("Somethign");
+       }
+
+       setInterval("doSometing() ", 1000); */
+
+       function printTime() {
+         var now = new Date();
+         var hours = now.getHours();
+         var minutes = now.getMinutes();
+         var seconds = now.getSeconds();
+         document.writeln(hours+":"+minutes+":"+seconds);
+       }
+
+setInterval("printTime()", 1000);
+    </script>
+  </body>
+</html>
